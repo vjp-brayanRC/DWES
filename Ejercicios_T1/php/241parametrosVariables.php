@@ -16,4 +16,11 @@ function mayor(): int {
     }
     return $max;
 }
+// Función que concatena 
+function concatenar(...$palabras): string {
+    return implode(" ", $palabras);
+}
 
+echo "Mayor: " . mayor(3, 5, 2, 8, 1) . "<br>";
+echo "Concatenado: " . concatenar("Hola", "mundo!", "¿Cómo", "estás?") . "<br>";
+?>
