@@ -13,3 +13,5 @@ $contador = array_count_values($num);
 echo "M" . ($contador["M"]) . "<br>";
 echo "F" . ($contador["F"]) . "<br>";
 ?>
+
+
