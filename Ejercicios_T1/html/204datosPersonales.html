@@ -1,0 +1,36 @@
+<!-- Es el mismo ejercicio que el anterior, pero separando la lógica. 
+En el primer archivo crearemos el formulario para introducir los datos, 
+y luego recogemos los datos y generamos la tabla en el segundo archivo. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos html</title>
+</head>
+<body>
+    <form action="204datosPersonales.php" method="get">
+
+    <p><label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" id="nombre"></p>
+
+    <p><label for="apellido1">Primer apellido:</label> 
+    <input type="text" name="apellido1" id="apellido1"></p>
+
+    <p><label for="apellido2">Segundo apellido:</label> 
+    <input type="text" name="apellido2" id="apellido2"></p>
+
+    <p><label for="email">Email:</label> 
+    <input type="text" name="email" id="email"></p>
+
+    <p><label for="anyoNacimiento">Año nacimiento: </label> 
+    <input type="number" name="anyoNacimiento" id="anyoNacimiento"></p>
+
+    <p><label for="telefono">telefono:</label> 
+    <input type="number" name="telefono" id="telefono"></p>
+
+    <p><input type="submit" value="enviar"></p>
+</form>
+</body>
+</html>
