@@ -8,6 +8,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
 
     $sql = "INSERT INTO usuario (nombre, usuario, password, email) 
+/**
+ * VALUES(public)
+ * Gestiona la operación de el proceso de forma eficiente. Esta función es esencial para el flujo de trabajo actual
+ * @param :nombre (any)
+ * @param :usuario (any)
+ * @param :password (any)
+ * @param :email (any)
+ * @author Brayan
+ */
             VALUES (:nombre, :usuario, :password, :email)";
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':nombre', $nombre);
