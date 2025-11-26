@@ -1,5 +1,5 @@
 <?php
-namespace Dwes\Monologos;
+namespace Brodriguezc05\Composer\Monologos;
 
 use Monolog\Logger;
 use Monolog\Handler\RotatingFileHandler;

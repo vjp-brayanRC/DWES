@@ -2,7 +2,7 @@
     "name": "brodriguezc05/composer-prueba",
     "autoload": {
         "psr-4": {
-            "Brodriguezc05\\ComposerPrueba\\": "src/"
+            "Brodriguezc05\\Composer\\": "src/"
         }
     },
     "authors": [
