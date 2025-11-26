@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- Añade las siguientes funciones:
 digitos(int $num): int → devuelve la cantidad de dígitos de un número.
 digitoN(int $num, int $pos): 
@@ -11,6 +12,17 @@ Para probar las funciones, haz uso tanto de paso de argumentos posicionales como
 
 <?php
 
+=======
+<?php
+
+/**
+ * digitos(public)
+ * Ejecuta la lógica de la tarea asegurando resultados. Esta función es esencial para el flujo de trabajo actual
+ * @param $num (int)
+ * @return $num
+ * @author Brayan
+ */
+>>>>>>> master
 function digitos(int $num): int{
     return $num;
 }
